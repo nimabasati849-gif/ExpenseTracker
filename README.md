@@ -1,2 +1,11 @@
 # ExpenseTracker
 A simple Python expense tracker to record expenses, display transactions, and calculate total spending.
+menu=int(input("Enter The Desired Option:"))
+if menu==1:
+    print("Register a New Exoen:")
+elif menu==2:
+    print("Display the List Of Expenses:")
+elif menu==3:
+    print("Calculate The Total Costs:")
+elif menu==0:
+    print("Exiting")
